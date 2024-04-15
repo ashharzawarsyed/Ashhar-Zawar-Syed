@@ -1,0 +1,68 @@
+.seemore.languages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.react{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+    color: #00D8FF;
+
+}
+.github{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+    color: #ffffff
+
+}
+
+.git{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+    color: #F1655B
+
+}
+
+.figma{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+    color: #f4f8f9;
+
+}
+.sass{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+    color: #CC6699
+
+}
+
+.js{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+    color:#F0DB4F
+
+}
+ion-icon {
+    font-size: 7rem;
+  }
+
+
+
+  #skills:target ~ #portfolio {
+    display: none;
+}
+

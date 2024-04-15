@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #000000 !important;
+}
+
+/**********************/
+/*POrtfolio SECTION*/
+/**********************/
+
+.introduction {
+  padding: 3.2rem;
+}
+.intro-content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  
+}
+.introduction:hover{
+  transform: translate(0, -1rem);
+}
+.profile-pic{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.profile-img {
+  width: 100%;
+ 
+}
+.profile-pic:hover{
+  transform: translate(0, -1rem);
+}
+
+.see-more {
+  padding: 3.2rem;
+}
+
+.paragraph-bold {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.see-more .paragraph {
+  font-size: 2.2rem;
+  font-weight: 400;
+  margin-bottom: 1.6rem;
+}
+
+.showcase {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 3.2rem;
+
+}
+.showcase:hover{
+  transform: translate(0, -1rem);
+}
+
+.btn {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem;
+  align-items: center;
+  border-radius: 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #CBFE47;
+  border-bottom: 3rem;
+  margin-top: 1rem; /* Add margin-top for vertical spacing */
+  background-color: #141414;
+  transition: all 0.6s;
+
+}
+.margin-buttom-sm {
+  margin-bottom: 4.6rem !important;
+}
+.btn:hover,
+.btn:active {
+  background-color: #060101;
+  box-shadow: inset 0 0 0 2px #a8d18a;
+}
+
+.profile-img{
+  color: #a8d18a;
+  fill: #CBFE47;
+  
+}
