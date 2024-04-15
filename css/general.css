@@ -33,9 +33,11 @@
   display: grid;
   column-gap: 2.2rem;
   row-gap: 2.2rem;
-  width:inherit;
+  width:100%;
 }
-
+.grid:div{
+  width:100%
+  }
 .grid--center--vertically {
   align-items: center;
 }
