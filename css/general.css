@@ -33,7 +33,7 @@
   display: grid;
   column-gap: 2.2rem;
   row-gap: 2.2rem;
-  align-self: auto;
+  max-width:130rem;
 }
 
 .grid--center--vertically {
