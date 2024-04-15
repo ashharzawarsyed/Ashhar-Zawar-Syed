@@ -33,7 +33,8 @@
   display: grid;
   column-gap: 2.2rem;
   row-gap: 2.2rem;
-  max-width:130rem;
+  width:100%;
+   align-items: center;
 }
 
 .grid--center--vertically {
